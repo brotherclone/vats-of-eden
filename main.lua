@@ -3,20 +3,27 @@
 --- DateTime: 3/26/26 5:41 PM
 ---
 
-local game = require("src.game")
+local scenes = require("src.scene_manager")
 
 function love.load()
-  game.load()
+  scenes.register("load",  require("src.scenes.load"))
+  scenes.register("setup", require("src.scenes.setup"))
+  scenes.register("game",  require("src.scenes.game"))
+  scenes.switch("load")
 end
 
 function love.update(dt)
-  game.update(dt)
+  scenes.update(dt)
 end
 
 function love.draw()
-  game.draw()
+  scenes.draw()
 end
 
 function love.keypressed(key, scancode, isrepeat)
-  game.keypressed(key, scancode, isrepeat)
+  scenes.keypressed(key, scancode, isrepeat)
+end
+
+function love.mousepressed(x, y, button)
+  scenes.mousepressed(x, y, button)
 end
