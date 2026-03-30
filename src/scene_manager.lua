@@ -36,4 +36,8 @@ function SceneManager.mousepressed(x, y, button)
   if active and active.mousepressed then active.mousepressed(x, y, button) end
 end
 
+function SceneManager.mousemoved(x, y, dx, dy)
+  if active and active.mousemoved then active.mousemoved(x, y, dx, dy) end
+end
+
 return SceneManager

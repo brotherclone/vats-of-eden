@@ -27,3 +27,7 @@ end
 function love.mousepressed(x, y, button)
   scenes.mousepressed(x, y, button)
 end
+
+function love.mousemoved(x, y, dx, dy)
+  scenes.mousemoved(x, y, dx, dy)
+end
