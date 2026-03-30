@@ -1,0 +1,13 @@
+# Love2D
+*.love
+
+# OS
+.DS_Store
+Thumbs.db
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# Lua language server
+.luarc.json
