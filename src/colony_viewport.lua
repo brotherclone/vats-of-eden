@@ -22,7 +22,9 @@ end
 
 ---@param dt number
 ---@param viewport_h number
-function ColonyViewport:update(dt, viewport_h)
+---@param dragging boolean
+function ColonyViewport:update(dt, viewport_h, dragging)
+  if dragging then return end
   local dx = 0
   if love.keyboard.isDown("left")  or self.mouse_x < EDGE_ZONE then
     dx = -SCROLL_SPEED * dt
