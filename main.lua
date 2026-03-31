@@ -4,6 +4,7 @@
 ---
 
 local scenes = require("src.scene_manager")
+local Tick   = require("src.tick")
 
 function love.load()
   scenes.register("load",  require("src.scenes.load"))
@@ -13,6 +14,7 @@ function love.load()
 end
 
 function love.update(dt)
+  Tick.update(dt)
   scenes.update(dt)
 end
 
