@@ -9,4 +9,4 @@
 - [x] 2.2 Call `Tick.update(dt)` at the top of `love.update`, before `scenes.update(dt)`
 
 ## 3. Smoke Test
-- [ ] 3.1 Add a temporary `print` subscriber in `src/scenes/game.lua` that prints the tick count, verify it fires once per second in-game, then remove it
+- [x] 3.1 Add a temporary `print` subscriber in `src/scenes/game.lua` that prints the tick count, verify it fires once per second in-game, then remove it
