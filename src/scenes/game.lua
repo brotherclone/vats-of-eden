@@ -1,5 +1,6 @@
 local Button       = require("src.ui.button")
 local scenes       = require("src.scene_manager")
+
 local ColonyViewport = require("src.colony_viewport")
 local CardTray     = require("src.ui.card_tray")
 local ConfigPanel  = require("src.ui.config_panel")
