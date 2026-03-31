@@ -1,5 +1,6 @@
 local Button       = require("src.ui.button")
 local scenes       = require("src.scene_manager")
+local Tick         = require("src.tick")
 local ColonyViewport = require("src.colony_viewport")
 local CardTray     = require("src.ui.card_tray")
 local ConfigPanel  = require("src.ui.config_panel")
@@ -18,6 +19,7 @@ local viewport
 local card_tray
 local objects
 
+local tick_count  = 0     -- smoke test: remove once tick verified
 local selected    = nil   -- selected game object
 local slider_drag = nil   -- { slider_table, panel_x, panel_w }
 local drag        = nil   -- { object, sx, sy }
@@ -64,6 +66,11 @@ function game_scene.load()
   selected  = nil
   drag      = nil
   slider_drag = nil
+  tick_count = 0
+  Tick.subscribe(function(n)
+    tick_count = n
+    print("tick", n)
+  end)
 end
 
 function game_scene.update(dt)
@@ -144,6 +151,10 @@ function game_scene.draw()
   card_tray:draw()
   ConfigPanel.draw(selected, tray_y)
   draw_drag_ghost()
+
+  -- smoke test: tick counter — remove once verified
+  love.graphics.setColor(1, 1, 0)
+  love.graphics.print("tick: " .. tick_count, 8, 8)
 
   if overlay_visible then
     love.graphics.setColor(0, 0, 0, 0.6)
