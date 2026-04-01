@@ -26,7 +26,7 @@ Vats of Eden is a 2D game built with the LÖVE framework (Love2D) in Lua. It is 
 - Feature branches off `develop`; `master` is the main branch
 
 ## Domain Context
-2D game; currently targeting an RTS genre. No assets loaded yet.
+2D idle/colony management game. Players manage a colony whose production and entropy are governed by a global tick system. Core mechanics include resource production, decay/entropy, and game objects assigned to slots. No assets loaded yet — visual style (pixel art, vector, etc.) is TBD and will inform the asset pipeline.
 
 ## Important Constraints
 - Must run under LÖVE 2D framework APIs only (no external Lua dependencies)
