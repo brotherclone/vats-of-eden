@@ -3,7 +3,7 @@ version 0
 
 ## Introduction
 
-Vats of Eden is a single player game that combines elements of idle games, card collecting games, and colony-management. It takes place seventy-five years from now in upstate New York, and like the utopian eras of the 1890s groups are splintering off from the main stream society to experiment with new forms of economies, government, family struture, and other exsistential questions. As a player you'll start with a founder and two members and build your colony to flourish in a strange and sometimes hostile new world.
+Vats of Eden is a single player game that combines elements of idle games, card collecting games, and colony-management. It takes place seventy-five years from now in upstate New York, and like the utopian eras of the 1890s groups are splintering off from the main stream society to experiment with new forms of economies, government, family structure, and other exsistential questions. As a player you'll start with a founder and two members and build your colony to flourish in a strange and sometimes hostile new world.
 
 ## Description
 
