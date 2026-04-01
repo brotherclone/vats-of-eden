@@ -11,7 +11,7 @@ Configure everything - every element of the game can be governed by simple slide
 
 ## Features
 * Evolve your colony from a makeshift shack to a powerful city-state.
-* Manage colony members gear skill and social life
+* Manage colony members’ gear, skills, and social lives.
 * Experiment with new forms of economies, law, and invention.
 
 ---
