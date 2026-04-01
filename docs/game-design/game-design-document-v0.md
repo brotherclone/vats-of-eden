@@ -7,7 +7,7 @@ Vats of Eden is a single player game that combines elements of idle games, card 
 
 ## Description
 
-Configure everything - every element of the game can be governed by simple sliders that allow you to react to changing situations. Buildings, machines, furniture, characters, gear, concepts and all nest inside one and another to create different effects and rates. The game is propelled along but a constant rate of cards being deal to the player offering them choices, situations, and rewards.
+Configure everything - every element of the game can be governed by simple sliders that allow you to react to changing situations. Buildings, machines, furniture, characters, gear, concepts and all nest inside one and another to create different effects and rates. The game is propelled along but a constant rate of cards being dealt to the player offering them choices, situations, and rewards.
 
 ## Features
 * Evolve your colony from a makeshift shack to a powerful city-state.
