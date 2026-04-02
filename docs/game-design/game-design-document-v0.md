@@ -1,6 +1,14 @@
 # Vats of Eden
 version 0
 
+> **STATUS: ARCHIVED — April 2026**
+>
+> This concept is archived rather than actively developed. The core design is compelling — the node graph as a moral ledger, economic/legal system compatibility, the death-of-a-thousand-cuts arc — but faithfully modeling the cultural and political dynamics at the heart of it (value drift, ideological friction, the slow compromise of founding ideals) would require a depth of cultural theory modeling that outpaces what can be tractably implemented. The vision is bigger than the available tools.
+>
+> Preserved here in full as a record of the idea and its best articulation.
+
+---
+
 ## Introduction
 
 Vats of Eden is a single player game that combines elements of idle games, card collecting games, and colony-management. It takes place seventy-five years from now in upstate New York, and like the utopian eras of the 1890s groups are splintering off from the main stream society to experiment with new forms of economies, government, family structure, and other exsistential questions. As a player you'll start with a founder and two members and build your colony to flourish in a strange and sometimes hostile new world.
